@@ -146,3 +146,6 @@ rel  = "sitemap"
 [security]
   [security.exec]
     allow = ['^babel$', '^dart-sass-embedded$', '^go$', '^npx$', '^postcss$']
+# With indentation (still valid)
+[build]
+    timeout = "600s"
